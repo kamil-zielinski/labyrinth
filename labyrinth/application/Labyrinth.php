@@ -124,7 +124,7 @@ class Labyrinth {
 
     /**
      * Gathers coordinates for path
-     * Labytinth must be solved before
+     * Labyrinth must be solved before
      *
      * @access private
      * @return array

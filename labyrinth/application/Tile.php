@@ -109,7 +109,7 @@ class Tile {
     }
 
     /**
-     * Gets lat move for finding right path
+     * Gets last move
      *
      * @access public
      * @return int

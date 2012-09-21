@@ -35,7 +35,7 @@ $labStructure2 = array(
 $lab = new Labyrinth($labStructure,array(0,0),array(7,7));
 $path = $lab->findPath();
 
-echo "Steps to pass labyrynth [x:y]:\n";
+echo "Steps to pass labyrinth [x:y]:\n";
 $i=1;
 foreach($path as $step){
     echo $i++.'. '.$step['x'].':'.$step['y']."\n";
